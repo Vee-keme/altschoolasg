@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.calcDiv{
+    margin: 5rem auto;
+    width: 25%;
+    min-width: 300px;
+    padding: 1rem;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 19px 0 rgba( 0, 0, 0, 0.4);
+    background-color: rgb(250, 235, 215);
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+}
+.text{
+    padding: 15px 5px;
+    margin: 0.5rem 0 1rem 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid #aaa;
+    text-align: right;
+    
+}
+td{
+    width: 25%;
+}
+.table-value{
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #aaa;
+    padding: 16px;
+    width: 100%;
+    font-weight: bold;
+    color: #111;
+}
+.equals{
+    height: 100px;
+    text-align: center;
+}
+.operators{
+    background-color: rgb(235, 132, 15);
+}
+
+.calc-flex a{
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 0 0 2rem 0;
+}

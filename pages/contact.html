@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/contactForm.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h2>HI THERE!!!</h2>
+            </div>
+            <ul>
+                <li><a href="register.html" target="_blank">Register</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+                <li><a href="../index.html" target="_blank" >Home</a></li>
+                <li><a href="calculator.html" target="_blank" >Calculator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Send me a message</h2>
+        <div class="formDiv">
+            <form action="post" class="contactForm">
+                
+                <input type="text" id="name" class="input"   placeholder="Name"  required>
+                
+                <input type="text" id="email" class="input" placeholder="Email" required>
+                
+                <select name="dropdown" id="dropdown" class="input">
+                    <option value="pick one">Gender</option>
+                    <option value="amala">Male</option>
+                    <option value="fufu">Female</option>
+                    <option value="fufu">Prefer not to say</option>
+                </select>
+                
+                <textarea value="write message for me" class="input textarea" required></textarea>
+                
+                <button class="input button">submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
